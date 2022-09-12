@@ -13,6 +13,7 @@ function App() {
       url: 'https://api.replicate.com/v1/predictions',
       method: 'POST',
       headers: {
+          'Access-Control-Allow-Origin': '*',
           'Authorization' : 'Token e9bfb3e13f0be289e761cede24a641cac28d4bff',
           'Content-Type': 'application/json',
       },
